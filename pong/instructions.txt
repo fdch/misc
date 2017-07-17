@@ -1,0 +1,7 @@
+text R: reset;
+text SPACE: start;
+text W/S: P. 1;
+text UP/DOWN: P. 2;
+text M: mute;
+text ESC: restart;
+text I: instructions;
