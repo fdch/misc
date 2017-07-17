@@ -179,7 +179,7 @@
 #X connect 3 0 1 0;
 #X connect 4 0 1 0;
 #X restore 21 101 pd s to-super __________;
-#N canvas 739 51 450 300 s 1;
+#N canvas 739 51 450 300 s 0;
 #X obj 316 122 gemwin;
 #X obj 316 83 r gemwin;
 #X obj 284 14 declare -lib Gem;
@@ -187,8 +187,8 @@
 #X msg 35 49 300 1200;
 #X msg 14 81 \; pd dsp 1 \; inst read instructions.txt \, bang \; gemwin
 0 \, destroy \; gemwin dimen \$1 \$1 \; speed \$2 \; restart bang \;
-reset bang \; instructions 1 \; gemwin title pong \, FSAA 4 \; gemwin
-create \, 1 \;;
+reset bang \; instructions 1 \; gemwin title pong \, FSAA 4 \, border
+0 \; gemwin create \, 1 \;;
 #X connect 1 0 0 0;
 #X connect 3 0 5 0;
 #X connect 4 0 5 0;
