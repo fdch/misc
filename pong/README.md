@@ -1,1 +1,2 @@
-# pongA Pd vanilla + Gem version of the pong game
+# PONG
+A Pd Vanilla + Gem version of the pong game.
